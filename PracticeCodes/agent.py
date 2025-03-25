@@ -10,8 +10,7 @@ dotenv.load_dotenv()
 
 # Retrieve Gemini model and Google API key from .env
 GEMINI_MODEL = os.getenv("GEMINI_MODEL")  # Example: gemini-1.5-flash
-GOOGLE_API_KEY = os.getenv("AIzaSyA5aJWBBZ12TVUgdN3D-v7orr4vQY_ouEo")
-
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 # Initialize Google Gemini LLM
 llm = ChatGoogleGenerativeAI(model=GEMINI_MODEL, temperature=0.7)
 
