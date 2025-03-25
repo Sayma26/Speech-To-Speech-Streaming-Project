@@ -1,0 +1,13 @@
+langchain
+langchain_community
+python-dotenv
+langchain_google_genai
+openai
+pypdf
+unstructured
+tiktoken
+pinecone
+langchain_pinecone
+langchain_huggingface
+langchain_text_splitters
+langchain_chroma
