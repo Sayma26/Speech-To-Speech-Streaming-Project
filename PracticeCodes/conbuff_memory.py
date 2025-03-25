@@ -10,7 +10,7 @@ dotenv.load_dotenv()
 
 # Get model and API key
 GEMINI_MODEL = os.getenv("GEMINI_MODEL")
-GOOGLE_API_KEY = os.getenv("AIzaSyA5aJWBBZ12TVUgdN3D-v7orr4vQY_ouEo")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 # Initialize the Gemini model
 llm = ChatGoogleGenerativeAI(model=GEMINI_MODEL, temperature=0.7)
 
