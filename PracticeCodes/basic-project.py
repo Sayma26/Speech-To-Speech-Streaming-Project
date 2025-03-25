@@ -7,7 +7,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 dotenv.load_dotenv()
 
 GEMINI_MODEL = os.getenv("GEMINI_MODEL")  # e.g., gemini-1.5-flash
-GOOGLE_API_KEY = os.getenv("AIzaSyA5aJWBBZ12TVUgdN3D-v7orr4vQY_ouEo")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 # Initialize the Gemini model
 llm = ChatGoogleGenerativeAI(model=GEMINI_MODEL, temperature=0.7)
