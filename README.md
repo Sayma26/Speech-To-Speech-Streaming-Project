@@ -1,6 +1,4 @@
-# Speech-To-Speech-Streaming-Project
-
-# 🎙️ Speech-to-Speech Video Translation System
+# 🎙️ Speech-To-Speech-Streaming-Project
 
 **Artificial Intelligence Intern | Infosys Springboard**
 
